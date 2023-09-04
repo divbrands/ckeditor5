@@ -29,7 +29,6 @@ import {
 import { Indent } from "@ckeditor/ckeditor5-indent";
 import { Link, LinkImage } from "@ckeditor/ckeditor5-link";
 import { List, ListProperties } from "@ckeditor/ckeditor5-list";
-import { Markdown } from "@ckeditor/ckeditor5-markdown-gfm";
 import { Paragraph } from "@ckeditor/ckeditor5-paragraph";
 import { PasteFromOffice } from "@ckeditor/ckeditor5-paste-from-office";
 import { RemoveFormat } from "@ckeditor/ckeditor5-remove-format";
@@ -61,7 +60,6 @@ class Editor extends ClassicEditor {
     LinkImage,
     List,
     ListProperties,
-    Markdown,
     Paragraph,
     PasteFromOffice,
     RemoveFormat,
@@ -81,7 +79,7 @@ class Editor extends ClassicEditor {
         "underline",
         "strikethrough",
         "|",
-        // 'imageInsert',
+        "imageInsert",
         "link",
         "blockQuote",
         "|",
