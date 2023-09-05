@@ -18,8 +18,9 @@ import { PasteFromOffice } from "@ckeditor/ckeditor5-paste-from-office";
 import { RemoveFormat } from "@ckeditor/ckeditor5-remove-format";
 import { SelectAll } from "@ckeditor/ckeditor5-select-all";
 import { TextTransformation } from "@ckeditor/ckeditor5-typing";
+import { SourceEditing } from "@ckeditor/ckeditor5-source-editing";
 declare class Editor extends ClassicEditor {
-    static builtinPlugins: (typeof Alignment | typeof AutoImage | typeof Autoformat | typeof BlockQuote | typeof Bold | typeof Essentials | typeof Heading | typeof Image | typeof ImageCaption | typeof ImageInsert | typeof ImageResize | typeof ImageStyle | typeof ImageToolbar | typeof ImageUpload | typeof Indent | typeof Italic | typeof Link | typeof LinkImage | typeof List | typeof ListProperties | typeof Paragraph | typeof PasteFromOffice | typeof RemoveFormat | typeof SelectAll | typeof Strikethrough | typeof TextTransformation | typeof Underline)[];
+    static builtinPlugins: (typeof Alignment | typeof AutoImage | typeof Autoformat | typeof BlockQuote | typeof Bold | typeof Essentials | typeof Heading | typeof Image | typeof ImageCaption | typeof ImageInsert | typeof ImageResize | typeof ImageStyle | typeof ImageToolbar | typeof ImageUpload | typeof Indent | typeof Italic | typeof Link | typeof LinkImage | typeof List | typeof ListProperties | typeof Paragraph | typeof PasteFromOffice | typeof RemoveFormat | typeof SelectAll | typeof Strikethrough | typeof TextTransformation | typeof Underline | typeof SourceEditing)[];
     static defaultConfig: {
         toolbar: {
             items: string[];

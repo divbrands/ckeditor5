@@ -34,6 +34,7 @@ import { PasteFromOffice } from "@ckeditor/ckeditor5-paste-from-office";
 import { RemoveFormat } from "@ckeditor/ckeditor5-remove-format";
 import { SelectAll } from "@ckeditor/ckeditor5-select-all";
 import { TextTransformation } from "@ckeditor/ckeditor5-typing";
+import { SourceEditing } from "@ckeditor/ckeditor5-source-editing";
 
 // You can read more about extending the build with additional plugins in the "Installing plugins" guide.
 // See https://ckeditor.com/docs/ckeditor5/latest/installation/plugins/installing-plugins.html for details.
@@ -67,6 +68,7 @@ class Editor extends ClassicEditor {
     Strikethrough,
     TextTransformation,
     Underline,
+    SourceEditing,
   ];
 
   public static override defaultConfig = {
@@ -93,6 +95,8 @@ class Editor extends ClassicEditor {
         "undo",
         "redo",
         "removeFormat",
+        "|",
+        "sourceEditing",
       ],
     },
     language: "en",
