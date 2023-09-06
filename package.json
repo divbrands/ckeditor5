@@ -2,7 +2,7 @@
   "name": "@divbrands/ckeditor5",
   "author": "CKSource",
   "description": "A custom CKEditor 5 build for Divbrands CMS.",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "license": "SEE LICENSE IN LICENSE.md",
   "repository": {
     "type": "git",
@@ -46,6 +46,7 @@
   },
   "scripts": {
     "build": "webpack --mode production",
-    "postbuild": "tsc -p ./tsconfig.types.json"
+    "postbuild": "tsc -p ./tsconfig.types.json",
+    "publish": "npm publish --access public"
   }
 }
