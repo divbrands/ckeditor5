@@ -2,7 +2,7 @@
   "name": "@divbrands/ckeditor5",
   "author": "CKSource",
   "description": "A custom CKEditor 5 build for Divbrands CMS.",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "license": "SEE LICENSE IN LICENSE.md",
   "repository": {
     "type": "git",
